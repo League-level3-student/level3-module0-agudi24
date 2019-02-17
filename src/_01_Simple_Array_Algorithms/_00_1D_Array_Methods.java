@@ -8,6 +8,8 @@ public class _00_1D_Array_Methods {
 		System.out.println("Sum: " + sumIntArray(num));
 		System.out.println("Average: " + averageIntArray(num));
 		System.out.println("Index: " + getIndex(num, 53));
+		System.out.println(containsIntValue(num, 1));
+
 		
 	}
 
@@ -41,13 +43,12 @@ public class _00_1D_Array_Methods {
 	public static boolean containsIntValue(int[] array, int value) {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
-			sum+=array[i];
+			sum = array[i];
 			if(sum == value) {
 				return true;
 			}
 		}
 		return false;
-		
 	}
 	
 	//4. Complete the method so that it returns the index of the,
