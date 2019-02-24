@@ -45,9 +45,9 @@ public class MoreArrayFun {
 		for (int i = 0; i < str.length; i++) {
 			int rand = r.nextInt(str.length);
 			System.out.println(str[rand]);
-			
+			}
 		}
 	}
 	
 	
-}
+
